@@ -1,0 +1,18 @@
+list=[]
+sub1=int(input("Enter Sub1 Marks:"))
+sub2=int(input("Enter Sub2 Marks:"))
+sub3=int(input("Enter Sub3 Marks:"))
+sub4=int(input("Enter Sub4 Marks:"))
+sub5=int(input("Enter Sub5 Marks:"))
+sub6=int(input("Enter Sub6 Marks:"))
+list.append(sub1)
+list.append(sub2)
+list.append(sub3)
+list.append(sub4)
+list.append(sub5)
+list.append(sub6)
+totalmarks=(sub1+sub2+sub3+sub4+sub5+sub6)
+avg=totalmarks/6
+print(list)
+print("Total Marks = ",totalmarks)
+print("Avg = ",avg)
